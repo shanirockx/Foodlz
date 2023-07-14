@@ -1,0 +1,148 @@
+@media (min-width: 768px) {
+  header .navbar-default {
+    flex-direction: row-reverse;
+  }
+  .navbar-right {
+    float: left !important;
+    margin-right: unset;
+    margin-left: -15px;
+  }
+  .navbar-nav {
+    float: left;
+    direction: rtl;
+    display: flex;
+  }
+  .navbar-brand {
+    float: right;
+  }
+  .navbar-header {
+    float: right;
+  }
+  header .navbar-nav > li {
+    margin: 0 0 0 30px;
+  }
+  .navbar-right .dropdown-menu {
+    right: auto;
+    left: 0;
+  }
+  .flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .contact-form {
+    display: flex;
+  }
+}
+.carousel-inner > .carousel-item {
+  direction: rtl;
+}
+.banner .carousel-indicators {
+  right: unset;
+  left: 0;
+  margin-right: unset;
+  margin-left: 15px;
+}
+.banner-text .link h5::before {
+  right: unset;
+  left: -25px;
+  -moz-transform: scale(-1);
+  -o-transform: scale(-1);
+  -webkit-transform: scale(-1);
+  transform: scaleX(-1);
+}
+.mirror {
+  display: inline-block;
+  -moz-transform: scale(-1);
+  -o-transform: scale(-1);
+  -webkit-transform: scale(-1);
+  transform: scaleX(-1);
+}
+.text-left {
+  text-align: right;
+  direction: rtl;
+}
+.iq-fancy-box::before {
+  left: unset;
+  right: -70px;
+}
+
+.iq-fancy-box:hover:before {
+  right: 0;
+}
+.iq-amazing-tab .nav-tabs li.active a.round-right .iq-fancy-box-01::before {
+  left: -10px;
+  right: inherit;
+}
+.iq-amazing-tab .nav-tabs li.active a.round-right .iq-fancy-box-01::after {
+  left: inherit;
+  right: 100%;
+}
+.iq-amazing-tab .nav-tabs li.active a .iq-fancy-box-01::before {
+  left: unset;
+  right: -10px;
+}
+.iq-amazing-tab .nav-tabs li.active a .iq-fancy-box-01::after {
+  right: unset;
+  left: 100%;
+}
+.iq-fancy-box-01 {
+  direction: rtl;
+  text-align: right;
+}
+.iq-fancy-box-01 h4 {
+  float: right;
+}
+#top-menu {
+  text-align: right;
+  direction: rtl;
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+.dropdown-menu.navbar-right {
+  text-align: right;
+}
+#back-to-top .top {
+  right: unset;
+  left: 25px;
+}
+.heading-title {
+  direction: rtl;
+}
+.fancy-content {
+  direction: rtl;
+}
+.iq-accordion .ad-title {
+  text-align: right;
+  padding: 15px 65px 15px 40px;
+  direction: rtl;
+}
+.iq-accordion .ad-details {
+  text-align: right;
+  direction: rtl;
+}
+.iq-pricing {
+  direction: rtl;
+}
+.iq-pricing .price-title span {
+  letter-spacing: 0px;
+}
+.about-text {
+  direction: rtl;
+}
+.iq-newsletter .form-inline {
+  direction: rtl;
+}
+.contact-form {
+  direction: rtl;
+}
+.contact-form .section-field input {
+  padding-left: unset;
+  padding-right: 20px;
+}
+.contact-form .section-field.textarea textarea {
+  padding-right: 20px;
+  padding-left: 0px;
+}
+.widget {
+  direction: rtl;
+}
